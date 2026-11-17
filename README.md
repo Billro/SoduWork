@@ -414,3 +414,7 @@ Please don't report security issues in public issues. Follow [SECURITY.md](SECUR
 SoduWork's own code is copyright MDiRi and released under the [MIT License](LICENSE). Third-party code, fonts, graphics and bundled tools keep their own licenses; see [Third-party notices](https://dev.soduwork.ai/docs/reference/third-party). The SoduWork name and logo are trademarks of MDiRi and are not licensed under MIT.
 
 Thanks to Electron, React, FastAPI, SQLAlchemy and the wider open-source ecosystem, and to the agent projects SoduWork runs. Being listed here doesn't mean a project endorses SoduWork.
+
+## Windows first-run note
+
+If you install the desktop client from `SoduWork-*-Setup.exe`, the **first launch runs an automatic update check and can take a few minutes** before the sign-in screen appears. This is normal behavior, not a hang. Installed clients check the selected Hub for updates at startup; source-launched clients (`start.cmd --desktop`) skip this installer update check and start faster.
